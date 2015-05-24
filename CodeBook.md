@@ -5,7 +5,7 @@ The original data set used for this Course project is located on: https://d396qu
 
  Full description of the original data is available here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The R script "run_analysis.R" provides a tidy data set with the average of each variable for each activity and each subject.
+The R script "run_analysis.R" provides a tidy data set with the average of each variable for each activity and each subject. For achiving that, this script:
 
 * Merges the training and test sets to create one data set as following:
 
@@ -19,7 +19,7 @@ The R script "run_analysis.R" provides a tidy data set with the average of each 
   The result is a 10299x66 data frame (from original 561 attributes, only 66 are measurements on the mean and standard deviation). 
   All measurements are in the range (-1, 1).
 
-* Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set as following:
+* Reads activity_labels.txt for applying descriptive activity names to name the activities in the data set as following:
 
         walking
         
@@ -33,7 +33,7 @@ The R script "run_analysis.R" provides a tidy data set with the average of each 
         
         laying
 
-* The script also appropriately labels the data set with descriptive variable names: 
+* This script also labels the data set with descriptive variable names: 
   all feature names (attributes) and activity names are converted to lower case. Also underscores and brackets () are removed. 
   Then a 10299x66 data frame containing features is merged with a 10299x1 data frame containing activity labels and subject IDs. 
   The 10299x68 data frame generated is saved in a txt file called "merged_clean_data.txt", where the first column contains subject IDs (integers between 1 and 30 inclusive), the second column activity names, and the last 66 columns are measurements. 
