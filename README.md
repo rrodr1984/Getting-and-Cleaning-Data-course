@@ -6,15 +6,15 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
-* Download and unzip the following file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into a local folder like C:\Users\yourname\Documents\R\
+* Download and unzip the following file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into a local folder like C:\Users\yourname\Documents\Github\datasciencecoursera\Getting_and_cleaning_data\
 
-* Copy the script file run_analysis.R into C:\Users\yourname\Documents\R\UCI HAR Dataset\
+* Copy the script file run_analysis.R into C:\Users\yourname\Documents\Github\datasciencecoursera\Getting_and_cleaning_data\
 
 * If you´re using RStudio, you have to execute following commands: 
-  setwd("C:\\\\Users\\\\yourname\\\\Documents\\\\R\\\\UCI HAR Dataset\\\\")
+  setwd("C:\\\\Users\\\\yourname\\\\Documents\\\\Github\\\\datasciencecoursera\\\\Getting_and_cleaning_data\\\\")
   source("run_analysis.R")
 
 * Execute following command for reading the dataset:
-  data <- read.table("data_set_with_the_averages.txt")
+  data <- read.table("tidy_data_set_with_the_averages.txt")
   The object data contains 180 rows and 68 columns. The 180 rows are built based on the combination of each activity and each   subject (there are 30 subjects and 6 activities). 
   Note that the run_analysis.R script file has no assumptions on numbers of records, only on locations of files.
