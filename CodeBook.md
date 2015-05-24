@@ -55,6 +55,6 @@ The R script "run_analysis.R" provides a tidy data set with the average of each 
         
         tgravityacc-mean-y
 
-* Finally, the script creates a second, independent tidy data set with the average of each measurement for each activity and each subject. 
+* As output of the script, a second and independent tidy data set with the average of each measurement for each activity and each subject is generated.
 The result 180x68 data frame is saved in a txt file called "tidy_data_set_with_the_averages.txt", where the first column contains subject IDs, the second column contains activity names, and the last 66 columns are the averages of each of the 66 measurement.
 The txt file contains 180 rows with the averages of the combination of 30 subjects and 6 activities.
