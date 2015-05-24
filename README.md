@@ -8,10 +8,10 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 * Download and unzip the following file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into a local folder like C:\Users\yourname\Documents\Github\datasciencecoursera\Getting_and_cleaning_data\
 
-* Copy the script file run_analysis.R into C:\Users\yourname\Documents\Github\datasciencecoursera\Getting_and_cleaning_data\
+* Copy the script file run_analysis.R into C:\Users\yourname\Documents\Github\datasciencecoursera\Getting_and_cleaning_data\UCI HAR Dataset\
 
 * If you´re using RStudio, you have to execute following commands: 
-  setwd("C:\\\\Users\\\\yourname\\\\Documents\\\\Github\\\\datasciencecoursera\\\\Getting_and_cleaning_data\\\\")
+  setwd("C:\\\\Users\\\\yourname\\\\Documents\\\\Github\\\\datasciencecoursera\\\\Getting_and_cleaning_data\\\\UCI HAR Dataset\\\\")
   source("run_analysis.R")
 
 * Execute following command for reading the dataset:
