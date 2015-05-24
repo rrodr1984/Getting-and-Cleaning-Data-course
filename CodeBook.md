@@ -8,9 +8,9 @@ The original data set used for this Course project is located on: https://d396qu
 The R script "run_analysis.R" provides a tidy data set with the average of each variable for each activity and each subject.
 
 * Merges the training and test sets to create one data set as following:
-  1.- train/X_train.txt with test/X_test.txt: the data frame generated is a 10299x561 data frame ("Number of Instances: 10299" and "Number of Attributes: 561").
-  2.- train/subject_train.txt with test/subject_test.txt: the data frame generated is a 10299x1 data frame with subject IDs
-  3.- train/y_train.txt with test/y_test.txt: the data frame generated is a 10299x1 data frame with activity IDs.
+       1.- train/X_train.txt with test/X_test.txt: the data frame generated is a 10299x561 data frame ("Number of Instances: 10299" and "Number of Attributes: 561").
+       2.- train/subject_train.txt with test/subject_test.txt: the data frame generated is a 10299x1 data frame with subject IDs
+       3.- train/y_train.txt with test/y_test.txt: the data frame generated is a 10299x1 data frame with activity IDs.
 
 * Reads features.txt for extracting only the measurements on the mean and standard deviation for each measurement. 
   The result is a 10299x66 data frame (from original 561 attributes, only 66 are measurements on the mean and standard deviation). 
