@@ -17,5 +17,4 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 * Execute following command for reading the dataset:
   data <- read.table("tidy_data_set_with_the_averages.txt")
-  The object data contains 180 rows and 68 columns. The 180 rows are built based on the combination of each activity and each   subject (there are 30 subjects and 6 activities). 
-  Note that the run_analysis.R script file has no assumptions on numbers of records, only on locations of files.
+  The object data contains 180 rows and 68 columns. The 180 rows are built based on the combination of each activity and each   subject (there are 30 subjects and 6 activities).
